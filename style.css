@@ -1,0 +1,36 @@
+body{
+	font-family: 'Monteserrat', sans-serif;
+}
+header{
+	padding: 20px 0;
+}
+.container{
+	position: relative;
+	width: 95%;
+	margin: 0 auto;
+}
+.primeiroPrincipal{
+	background: lightgrey;
+	padding: 25px 100px 25px 500px
+}
+form{
+	margin: 40px 0;
+}
+form lable{
+	font-size: 20px;
+}
+.input-padrao{
+	align-items: center;
+	display: block;
+	margin: 0 0 30px;
+	padding: 20px 40px;
+	width: 30%;
+}
+.submeter{
+	width: 30%;
+	padding: 15px 0;
+	background: steelblue;
+	color: white;
+	font-size: 20px;
+	border: none;
+}
