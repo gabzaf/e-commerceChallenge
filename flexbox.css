@@ -1,8 +1,36 @@
 .cabecalhoPrincipal .container{
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 }
-form{
+.primeiroPrincipal .primeiroPrincipal-formulario{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
+
+}
+.rodape .container{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	align-items: center;
+}
+.container{
+	/*height: 3em;*/
+}
+.rodape-nav{
+	
+}
+.rodape-nav .rodape-nav-lista{
+	
+}
+.formulario-rodape{
+	display: flex;
+	flex-direction: column;
+	
+}
+.fim{
+	display: flex;
+	flex-direction: column;
 }

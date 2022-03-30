@@ -1,36 +1,56 @@
 body{
 	font-family: 'Monteserrat', sans-serif;
 }
-header{
-	padding: 20px 0;
-}
-.container{
-	position: relative;
-	width: 95%;
-	margin: 0 auto;
-}
 .primeiroPrincipal{
-	background: lightgrey;
-	padding: 25px 100px 25px 500px
+	background: #F2F4F4;
+	padding: 5em 5em 5em 5em;	
 }
-form{
-	margin: 40px 0;
+.indexPrincipal-imagem{
+	width: 100%;
 }
 form lable{
 	font-size: 20px;
 }
 .input-padrao{
-	align-items: center;
-	display: block;
-	margin: 0 0 30px;
-	padding: 20px 40px;
-	width: 30%;
+	padding: 10px 25px;
+	width:  30%;
 }
-.submeter{
+.primeiroPrincipal-botaoEntrar{
 	width: 30%;
+	line-height: 1;
 	padding: 15px 0;
 	background: steelblue;
 	color: white;
+	font-weight: bold;
 	font-size: 20px;
 	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+}
+.submeter{
+	width: 100%;
+	padding: 15px 0;
+	background: steelblue;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+}
+footer{
+	background: #EBF5FB ;
+}
+.rodape{
+	padding: 5em 5em 5em 5em;
+}
+.rodape-nav-item{
+	padding: 0 1em;
+}
+.rodape-menu-lista{
+	padding: 10px;
+}
+.fim{
+	align-items: center;
+	text-align: center;
 }
