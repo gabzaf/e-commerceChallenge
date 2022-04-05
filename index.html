@@ -1,62 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width">
-		<meta name="description" content="E-commerce para venda de produtos de criança."> <!-- meta description, SEO, descrição que aparece no google quando pesquiso um site -->
-		<title>Alura Geek</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="E-commerce para venda de produtos de criança."> <!-- meta description, SEO, descrição que aparece no google quando pesquiso um site -->
+    <title>Alura Geek</title>
 
-		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="flexbox.css">
-	</head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flexbox.css">
+</head>
 
-	<body>
+<body>
+    <header class="cabecalhoPrincipal">
+        <div class="container">
+            <nav class="cabecalhoPrincipal-nav">
+                <a class="cabecalhoPrincipal-nav-titulo" href="#"><img src="Logo.png" alt="Logo da allurageek"></a>
+                <a class="cabecalhoPrincipal-nav-barraPesquisa"><img src="barra-pesquisa.png"></a>
+            </nav>
+        </div>
+    </header>
 
-		<header class="cabecalhoPrincipal">
-			<div class="cabecalhoPrincipal-container">
-                <nav class="container-nav">
-				    <a class="cabecalhoPrincipal-container-titulo" href="#"><img src="Logo.png" alt="Logo da allurageek"></a>
-				    <a class="cabecalhoPrincipal-container-barraPesquisa"><img src="barra-pesquisa.png"></a >
+    <main class="conteudoPrincipal">
+        <img src="banner.png" class="conteudoPrincipal-banner">
+        <div class="container">
+            <img src="seção-starwars.png" class="conteudoPrincipal-imagem">
+            <img src="seção-console.png" class="conteudoPrincipal-imagem">  
+            <img src="diversos-seção.png" class="conteudoPrincipal-imagem">
+        </div>
+    </main>
+
+    <footer class="rodapePrincipal">
+        <div class="container">
+            <div class="rodapePrincipal-logoNav">
+                <section class="rodapePrincipal-image">
+                    <img src="Logo.png" alt="Logo da alurageek" class="rodapePrincipal-imagem">
+                </section>
+
+                <nav class="rodapePrincipal-navMap-list">
+                    <a href="#" class="rodapePrincipal-navMap-link">Quem somos nós</a>
+                    <a href="#" class="rodapePrincipal-navMap-link">Nossas lojas</a>
+                    <a href="#" class="rodapePrincipal-navMap-link">Programa de fidelidade</a>
+                    <a href="#" class="rodapePrincipal-navMap-link">Política de privacidade</a>
+                    <a href="#" class="rodapePrincipal-navMap-link">Quero ser franqueado</a>
+                    <a href="#" class="rodapePrincipal-navMap-link">Anuncie aqui</a>
                 </nav>
             </div>
-		</header>
-
-		<main class="indexPrincipal">
-            <div class="indexPrincipal-container">
-                <img src="banner.png" class="indexPrincipal-container-imagem">
-                <img src="diversos-seção.png" class="indexPrincipal-container-imagem">
-                <img src="seção-starwars.png" class="indexPrincipal-container-imagem">
-                <img src="Console.png" class="indexPrincipal-container-imagem">	
-            </div>
-		</main>
-
-		<footer class="rodape">
-			<div class="rodape-container">
-                <img src="Logo.png" alt="Logo da alurageek" class="rodape-container-imagem">
-                <div class="container-lista">
-				    <a href="#" class="container-lista-item">Quem somos nós</a>
-				    <a href="#" class="container-lista-item">Nossas lojas</a>
-				    <a href="#" class="container-lista-item">Programa de fidelidade</a>
-				    <a href="#" class="container-lista-item">Política de privacidade</a>
-				    <a href="#" class="container-lista-item">Quero ser franqueado</a>
-				    <a href="#" class="container-lista-item">Anuncie aqui</a>
-                </div>
-                <div class="container-secao-um">
-				    <form class="rodape-formulario">
-				    	<label for="nome">Fale conosco</label>
-				    	<input type="text" id="nome" class="input-padrao" required placeholder="Escreva seu nome">
-                        <label for="mensagem"></label>
-                        <input type="text" id="mensagem" class="input-padrao" required placeholder="Escreva sua mensagem">
-                        <input type="submit" value="Enviar mensagem" class="submeter">
-				    </form>
-                </div>
-			</div>
             
-			<div class="fim">
-				<p class="developer">Desenvolvido por Gabriel Affonso</p>
-				<p class="copyright">&copy; Copyright AluraGeek - 2022</p>
-			</div>
-		</footer>
-	</body>
+
+            <section class="rodapePrincipal-formulario">
+                <form class="rodapePrincipal-contatoForm">
+                    <fieldset>
+                        <legend class="rodapePrincipal-contatoForm-legend">Fale conosco</legend>
+                        <div class="rodapePrincipal-contatoForm-fieldset"> 
+                            <input type="text" id="nome" class="rodapePrincipal-contatoForm-fieldset-name" required placeholder="Escreva seu nome">
+                            <textarea class="rodapePrincipal-contatoForm-fieldset-message" type="text" id="mensagem" required placeholder="Escreva a sua mensagem"></textarea>
+                            <input type="submit" value="Enviar mensagem" class="rodapePrincipal-contatoForm-fieldset-submit">
+                        </div>
+                    </fieldset>
+                </form>
+            </section>           
+        </div>
+        <section class="rodapePrincipal-fim">
+            <a class="rodapePrincipal-fim-developer">Desenvolvido por Gabriel Affonso</a>
+            <a class="rodapePrincipal-fim-copyright">&copy; Copyright AluraGeek - 2022</a>
+        </section>
+    </footer>
+</body>
 </html>

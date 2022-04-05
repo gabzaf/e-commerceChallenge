@@ -1,3 +1,95 @@
 body{
-	font-family: 'Monteserrat', sans-serif;
+	font-family: 'Opens Sans', Arial, sans-serif;
+}
+.container{
+	width: 94%;
+	margin: 0 auto;
+}
+.cabecalhoPrincipal{
+	padding: 1.5em 0;
+}
+/*.cabecalhoPrincipal-nav-titulo{
+	margin-bottom: 2em;
+}*/
+.conteudoPrincipal{
+	/*margin-top: 1em;*/
+	/*margin-bottom: .2em;*/
+	background-color: #f2f2f2;
+}
+.conteudoPrincipal-banner{
+	width: 100%;
+}
+.rodapePrincipal{
+	background-color: #e6f5ff;
+}
+.rodapePrincipal .container{
+	padding: 2em;
+}
+.rodapePrincipal-logoNav{
+	width: 60%;
+}
+.rodapePrincipal-image{
+	margin-left: 5.5em;
+}
+.rodapePrincipal-navMap-list{
+	width: 50%;
+}
+.rodapePrincipal-navMap-link{
+	text-decoration: none;
+	color: #333333;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	font-size: 1em;
+}
+.rodapePrincipal-navMap-link{
+	margin-top: 0;
+	padding: .15em;
+}
+.rodapePrincipal-formulario{
+	padding: 2em 0;
+	width: 40%;
+	margin-right: 10em;
+}
+.rodapePrincipal-contatoForm-legend{
+	font-size: 1.1em;
+	margin-bottom: .5em;
+	color: ##333333;
+	display: block;
+}
+.rodapePrincipal-contatoForm-fieldset-name,
+.rodapePrincipal-contatoForm-fieldset-message{
+	border-top-right-radius: .5em;
+	border-top-left-radius: .5em;
+	padding: 1em;
+	outline: 0;
+	border: .5em;
+	box-sizing: border-box;
+}
+.rodapePrincipal-contatoForm-fieldset-message{
+	width: 100%;
+	margin-top: 1em;
+	margin-bottom: .7em;
+	font-family: 'Opens Sans', Arial, sans-serif;
+	resize: none;	
+}
+.rodapePrincipal-contatoForm-fieldset-submit{
+	width: 40%;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: .1em;
+	background-color: #3366FF;
+	color: #FFF;
+	cursor: pointer;
+	outline: 0;
+	border: .25em solid #3366FF;
+	font-size: 1em;
+	font-weight: bold;
+}
+.rodapePrincipal-fim{
+	background-color: #FFFFFF;
+	padding: 1em;
+	font-size: .8em;
+}
+.rodapePrincipal-fim-developer{
+	padding: .25em;
 }
